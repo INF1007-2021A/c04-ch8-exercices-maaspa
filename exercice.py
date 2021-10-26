@@ -7,7 +7,15 @@ PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80
 
 
 # TODO: Définissez vos fonction ici
-
+def deuxfichiers(fichier1,fichier2):
+    with open(fichier1, "r") as f:
+        for ligne in f:
+            donnees = ligne.split()
+            for i in range(len(donnees):
+                if donnees[i] != donnees2[j]
+       
+        for elem in 
+        f.close()
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
